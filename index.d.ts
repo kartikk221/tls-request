@@ -23,3 +23,4 @@ export declare function request(session: string, method: string, url: string, he
 export declare function freeSession(session: string): void
 /** Returns the number of unique sessions in HashMap */
 export declare function getSessionsCount(): number
+export declare function trimMemory(): boolean
