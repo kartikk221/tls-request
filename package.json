@@ -1,6 +1,6 @@
 {
     "name": "tls-request-rust-napi-rs",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Beta package to make TLS requests in Node.js using Rust FFI.",
     "main": "index.js",
     "scripts": {
