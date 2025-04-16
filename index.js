@@ -310,9 +310,10 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { request, freeSession, getSessionsCount, trimMemory } = nativeBinding
+const { request, freeSession, getSessionsCount, trimMemory, getSessionProfile } = nativeBinding
 
 module.exports.request = request
 module.exports.freeSession = freeSession
 module.exports.getSessionsCount = getSessionsCount
 module.exports.trimMemory = trimMemory
+module.exports.getSessionProfile = getSessionProfile
